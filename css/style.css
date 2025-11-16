@@ -613,7 +613,7 @@ body {
 .rec-items {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 3%;
     padding: auto;
 }
 
@@ -641,13 +641,13 @@ body {
 }
 
 .rec-intro {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .rec-options {
     display: flex;
-    gap: 50%;
-    margin-bottom: 20px;
+    gap: 5%;
+    margin-bottom: auto;
     text-align: left;
 }
 
@@ -655,16 +655,15 @@ body {
     font-size: 15px;
     font-weight: 700;
     color: #0a2342;
-    margin: auto;
     text-align: left;
 }
 
 .rec-desc {
     font-size: 10px;
     color: #444;
-    margin-bottom: 5%;
     text-align: left;
 }
+
 
 /* Relevant Links section */
 .link-display {
