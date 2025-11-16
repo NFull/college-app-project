@@ -1,6 +1,12 @@
                                     /* GENERAL STYLING */
 
 /* Navigation bar styling */
+.nav-container {
+  background-color: #0a2342; 
+  color: white;
+    margin: auto;
+}
+
 .navbar-header {
     display: flex;
     justify-content: space-between;
@@ -15,7 +21,7 @@
 }
 
 .nav-item a {
-    color: #0a2342;
+    color: white;
 }
 
 
@@ -85,6 +91,15 @@ body {
                                       /* INDEX PAGE STYLING */
 
 /* Introduction image and inner text */
+.introduction{
+    background-color: white;
+    padding: 25px 0;
+}
+
+.img-fluid {
+    filter: blur(1px);
+}
+
 .image-container {
   position: relative;
   text-align: center;
@@ -585,4 +600,22 @@ body {
     text-align: left;
 }
 
-/* Campus Events section */
+/* Relevant Links section */
+.link-display {
+        margin-top: 20px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+.btn-links {
+        background: #0a2342;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 6px;
+        text-decoration: none;
+}
+
+.btn-links:hover {
+        background: #133b6d;
+        color: white;
+    }
