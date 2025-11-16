@@ -795,9 +795,9 @@ body {
 .accreditation-title,
 .awards-title {
   font-size: 1rem;
-  color: #2c3e50;
+  color: #000000;
   font-weight: 500;
-  margin-bottom: 2%;
+  margin: 2%;
 }
 
 .accreditation-line,
@@ -805,11 +805,16 @@ body {
   width: 100%;
   height: 1px;
   background-color: #ddd;
-  margin-bottom: 5%;
+  color:#666;
+  margin-bottom: 20%;
 }
 
 .awards-section {
-  margin-top: 15%;
+  padding-bottom: 20%;
+}
+
+.awards-ul {
+  text-align: left;
 }
 
 
