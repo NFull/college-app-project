@@ -1,0 +1,35 @@
+
+[
+  {
+    "id": 1,
+    "name": "Paul Coscia",
+    "position": "Assistant Vice President for Financial Aid",
+    "email": "financialaid@salem.edu",
+    "phone": "336-917-5577",
+    "image": "./images/paul.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Kris Sorrells",
+    "position": "Head of School - Salem Academy",
+    "email": "kris.sorrells@salemacademy.com",
+    "phone": "336-917-5524",
+    "image": "./images/kris.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Brett Woods",
+    "position": "Vice President for Academic Affairs and Dean of the College",
+    "email": "brett.woods@salem.edu",
+    "phone": "336-917-5466",
+    "image": "./images/brett.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Matt Munsey",
+    "position": "Vice President of Enrollment Management",
+    "email": "matthew.munsey@salem.edu",
+    "phone": "336-721-2621",
+    "image": "./images/matt.jpeg"
+  }
+]
