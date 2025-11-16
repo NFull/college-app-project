@@ -425,9 +425,9 @@ body {
 }
 
 .cf-desc {
+  margin-top: 5%;
   color: #444;
   font-size: 0.95rem;
-  margin-bottom: 8px;
 }
 
 .cf-btn {
@@ -436,7 +436,7 @@ body {
   text-decoration: none;
   font-size: 0.9rem;
   border-radius: 5px;
-  margin-top: 50%;
+  margin-top: 10%;
   width: fit-content;
 }
 
@@ -577,6 +577,16 @@ body {
   line-height: 1.4;
 }
 
+.refectory-hrs {
+  display: flex;
+  flex-direction:column;
+}
+
+.cafe-hrs {
+  display: flex;
+  flex-direction:column;
+}
+
 .dining-hrs {
   display: inline-block;
   padding: 8px 14px;
@@ -584,7 +594,6 @@ body {
   text-decoration: none;
   border-radius: 4px;
   font-size: 0.9rem;
-  margin-top: 5%;
 }
 
 
