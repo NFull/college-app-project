@@ -507,15 +507,14 @@ body {
 
 /* Dining Facilities section */
 .dining {
-  padding: 30px 0;
   background-color: #0069AA;
-  margin-block: 5%;
+  margin: 30px auto;
+  width: 100%;
 }
 
 .dining-container {
   width: 100%;
-  max-width: 90%; 
-  margin: 30px;
+  padding: 30px;
   justify-content: center;
 }
 
@@ -527,8 +526,9 @@ body {
 
 .dining-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
   justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 20px;
 }
 
 .dining-card {
@@ -673,19 +673,19 @@ body {
         padding: 20px;
         margin: auto;
         border-radius: 6px;
-    }
+}
 
 .btn-links {
         background: #0a2342;
         color: white;
         padding: 10px 20px;
         border-radius: 6px;
-    }
+}
 
 .btn-links:hover {
         background: #133b6d;
         color: white;
-    }
+}
 
 
                                                  /* PAGE 3 STYLING */          
@@ -700,6 +700,7 @@ body {
   background-color:#0069AA;
   padding: 5%;
   border-radius: 6px;
+  width: 100%;
 }
 
 .about-grid {
@@ -795,6 +796,8 @@ body {
 
 .accreditation-section {
   background: white;
+  height: auto;
+  width:auto;
   padding: 20px;
   border-radius: 8px;
   border: 1px solid #e9ecef;
@@ -876,4 +879,307 @@ body {
   height: 240px;
   object-fit: cover;
   border-bottom: 2px solid #eee;
+}
+
+
+                                                           /* Media Query */           
+/* Smaller screens */
+@media (max-width: 1000px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+
+  .image-text {
+    font-size: 25px;
+  }
+
+  .row {
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .navbar-header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav {
+    gap: 10px;
+    font-size: 10px;
+  }
+
+  .wpn-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .wpn-card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .wpn-image {
+    height: 150px;
+  }
+
+  .wpn-content {
+    padding: 15px;
+  }
+
+  .news-box {
+    padding: 10px;
+    height: auto;
+  }
+
+  .news-box-inner {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .news-box-inner a {
+    width: 100%;
+    height: 150px;
+  }
+
+  .news-image {
+    width: 100%;
+  }
+
+  .news-text {
+    margin-top: 5px;
+  }
+
+  .news-text h3 {
+    margin-bottom: 5px;
+  }
+
+  .news-text p {
+    font-size: 0.85rem;
+  }
+
+  .btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .footer-col h3 {
+    font-size: 0.95rem;
+  }
+
+  .footer-col ul li {
+    font-size: 0.85rem;
+  }
+
+  .housing-card, .rec-card {
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  .housing-header, .rec-header {
+    margin-left: 0;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+
+  .housing-items, .rec-items {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+  }
+
+  .housing-image, .rec-image, .rec-left {
+    width: 100%;
+    height: 200px;
+    margin: 0;
+  }
+
+  .housing-right, .rec-right {
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+    padding: 0;
+  }
+
+  .housing-title, .rec-title {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+
+  .housing-desc, .rec-desc {
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+    line-height: 1.4;
+  }
+
+  .rec-options {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-content {
+    padding: 15px;
+  }
+
+  .about-title {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+
+  .about-item {
+    margin-bottom: 20px;
+  }
+
+  .about-subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+  }
+
+  .image-box {
+    margin: 10px 0;
+  }
+
+  .image-picture {
+    width: 100%;
+    height: 200px;
+  }
+
+  .link-display {
+    font-size: 16px;
+    padding: 15px;
+    width: 80%;
+    font-size: 0.9rem;
+  }
+
+  .btn-links {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .cf-container {
+    width: 100%;
+    justify-items: center;
+  }
+
+  .cf-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    width: 50%;
+  }
+
+  .cf-card {
+    min-height: 150px;
+    padding: 15px;
+  }
+
+  .cf-headline {
+    font-size: 1.1rem;
+  }
+
+  .cf-desc {
+    font-size: 0.85rem;
+    margin-top: 8px;
+  }
+
+  .cf-btn {
+    margin-top: 8px;
+    font-size: 0.85rem;
+  }
+
+  .dining {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .dining-container {
+    padding: 15px;
+  }
+
+  .dining-title {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+
+  .dining-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .dining-card {
+    width: 80%;
+  }
+  .dining-image {
+    height: 200px;
+  }
+
+  .dining-content {
+    padding: 15px;
+  }
+
+  .dining-headline {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+
+  .dining-desc {
+    font-size: 0.85rem;
+    margin-bottom: 12px;
+  }
+
+  .dining-hrs {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
+
+  .accreditation-section {
+    padding: 15px;
+  }
+
+  .accreditation-title,
+  .awards-title {
+    font-size: 0.95rem;
+  }
+
+  .awards-ul {
+    font-size: 0.9rem;
+  }
+
+  .core-values h2 {
+    font-size: 1.8rem;
+  }
+
+  .value-card {
+    margin-bottom: 15px;
+  }
+
 }
