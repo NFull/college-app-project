@@ -13,7 +13,7 @@ Technologies used
 
 
 Instructions for setup and deployment
-    Visit *website OR 
+    Visit [*website](https://nfull.github.io/college-app-project/) OR 
     -   Clone repository onto your device
     -   Open with Visual Studio
     -   Use Live Server to preview website
