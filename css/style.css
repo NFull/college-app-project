@@ -871,16 +871,17 @@ body {
   overflow: hidden;
 }
 
-.leader-card:hover {
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-}
-
 .leader-image {
   height: 240px;
   object-fit: cover;
-  border-bottom: 2px solid #eee;
 }
 
+.leader-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
 
                                                            /* Media Query */           
 /* Smaller screens */

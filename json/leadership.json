@@ -31,5 +31,93 @@
     "email": "matthew.munsey@salem.edu",
     "phone": "336-721-2621",
     "image": "./images/matt.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Linda McKinnish Bridges",
+    "position": "Director of Institutional Advancement",
+    "email": "linda.bridges@salem.edu",
+    "phone": "336-462-6653",
+    "image": "./images/bridges.jpg"
+  },
+  {
+    "id": 6,
+    "name": "David Browning",
+    "position": "Chief Financial Officer and Vice President for Finance and Administration",
+    "email": "david.browning@salem.edu",
+    "phone": "336-917-5764",
+    "image": "./images/browning.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Karen Boyd",
+    "position": "Director of Public Safety",
+    "email": "karen.boyd@salem.edu",
+    "phone": "336-721-2628",
+    "image": "./images/boyd.jpg"
+  },
+  {
+    "id": 8,
+    "name": "JaNae Joyner",
+    "position": "Vice President of Mission and Strategy and Chief of Staff",
+    "email": "janae.joyner@salem.edu",
+    "phone": "336-917-5875",
+    "image": "./images/joyner.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Elizabeth Novicki",
+    "position": "Library Director",
+    "email": "Elizabeth.Novicki@salem.edu",
+    "phone": "336-917-5417",
+    "image": "./images/novicki.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Heather Zifchak",
+    "position": "Director of Alumnae Engagement",
+    "email": "heather.zifchak@salem.edu",
+    "phone": "336-917-5595",
+    "image": "./images/zifchak.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Charles Norris",
+    "position": "Director, Technology Services",
+    "email": "lee.norris@salem.edu",
+    "phone": "336-721-2810",
+    "image": "./images/campus.png"
+  },
+  {
+    "id": 12,
+    "name": "D'nea E. Spencer",
+    "position": "Director of Advising",
+    "email": "dnea.spencer@salem.edu",
+    "phone": "336-721-2645",
+    "image": "./images/spencer.jpg"
+  },
+   {
+    "id": 11,
+    "name": "Robyn Goslen",
+    "position": "Director of Special Events and Community Outreach",
+    "email": "robyn.goslen@salem.edu",
+    "phone": "336-917-5411",
+    "image": "./images/campus.png"
+  },
+   {
+    "id": 11,
+    "name": "Tina Kramer",
+    "position": "Executive Director of Operations",
+    "email": "tina.kramer@salem.edu",
+    "phone": "336-917-5405",
+    "image": "./images/kramer.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Nicole Hundt",
+    "position": "Executive Director of Residential Life and Title IX Coordinator",
+    "email": "titleix@salem.edu",
+    "phone": "336-917-5786",
+    "image": "./images/hundt.jpg"
   }
 ]
