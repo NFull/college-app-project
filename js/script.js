@@ -63,6 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
       clone.querySelector(".leader-position").textContent = person.position;
       clone.querySelector(".leader-email").href = `mailto:${person.email}`;
       clone.querySelector(".leader-email").textContent = person.email;
+      clone.querySelector(".leader-phone").href = `tel:${person.phone}`;
       clone.querySelector(".leader-phone").textContent = person.phone;
 
       container.appendChild(clone);

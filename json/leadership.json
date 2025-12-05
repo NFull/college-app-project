@@ -119,5 +119,37 @@
     "email": "titleix@salem.edu",
     "phone": "336-917-5786",
     "image": "./images/hundt.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Gary Daynes",
+    "position": "Interim President, Salem Academy and College",
+    "email": "officeofthepresident@salem.edu",
+    "phone": "336-721-2605",
+    "image": "./images/daynes.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Kathy Barnes",
+    "position": "Vice President of Institutional Advancement",
+    "email": "kathym.barnes@salem.edu",
+    "phone": "336-917-5565",
+    "image": "./images/barnes.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Jennifer S. Borrero",
+    "position": "Dean of Students",
+    "email": "jennifer.borrero@salem.edu",
+    "phone": "336-917-5895",
+    "image": "./images/borrero.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Michael Williams",
+    "position": "Director of Athletics",
+    "email": "michael.williams@salem.edu",
+    "phone": "336-960-4925",
+    "image": "./images/williams.png"
   }
 ]
